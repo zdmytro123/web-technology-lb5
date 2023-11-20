@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 2. Виконав Жук Д.В. ІА-401</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #weatherData {
+            margin-top: 20px;
+            font-size: 18px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <label for="cityInput">Введіть місто: </label>
+    <input type="text" id="cityInput" placeholder="Наприклад, Kyiv">
+    <button onclick="getWeather()">Отримати погоду</button>
+    <div id="weatherData"></div>
+    <script src="script.js"></script>
+</body>
+</html>
